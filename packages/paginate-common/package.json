@@ -1,0 +1,22 @@
+{
+    "name": "@aequum/nestjs-paginate-common",
+    "version": "0.25.0-alpha07",
+    "description": "aequum NestJS pagination common components",
+    "author": "Felipe Buccioni",
+    "homepage": "https://github.com/fbuccioni/aequum-nestjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fbuccioni/aequum-nestjs.git",
+        "directory": "packages/paginate-common"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@aequum/paginate-common": "*",
+        "@aequum/types": "*",
+        "@nestjs/common": ">10.0.0",
+        "@nestjs/swagger": ">10.0.0"
+    }
+}

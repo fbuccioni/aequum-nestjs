@@ -1,0 +1,20 @@
+{
+    "name": "@aequum/nest-mongoose",
+    "version": "0.25.0-alpha07",
+    "description": "aequum NestJS mongoose components",
+    "author": "Felipe Buccioni",
+    "homepage": "https://github.com/fbuccioni/aequum-nestjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fbuccioni/aequum-nestjs.git",
+        "directory": "packages/mongoose"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@nestjs/mongoose": ">=10.0.0",
+        "mongoose": ">=8.8.8"
+    }
+}

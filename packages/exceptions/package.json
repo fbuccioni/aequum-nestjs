@@ -1,0 +1,22 @@
+{
+    "name": "@aequum/nest-exceptions",
+    "version": "0.25.0-alpha07",
+    "description": "aequum NestJS descriptive and rich exceptions module",
+    "author": "Felipe Buccioni",
+    "homepage": "https://github.com/fbuccioni/aequum-nestjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fbuccioni/aequum-nestjs.git",
+        "directory": "packages/exceptions"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@aequum/exceptions": "*",
+        "@aequum/nestjs-common": "^0.25.0-alpha07",
+        "@aequum/types": "*",
+        "@nestjs/common": ">10.0.0"
+    }
+}

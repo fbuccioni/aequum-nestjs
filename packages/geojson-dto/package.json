@@ -1,0 +1,20 @@
+{
+    "name": "@aequum/nest-geojson-dto",
+    "version": "0.25.0-alpha07",
+    "description": "aequum NestJS validable and swagger ready GeoJSON DTOs",
+    "author": "Felipe Buccioni",
+    "homepage": "https://github.com/fbuccioni/aequum-nestjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fbuccioni/aequum-nestjs.git",
+        "directory": "packages/authz"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@aequum/geojson-models": "*",
+        "@nestjs/swagger": ">10.0.0"
+    }
+}

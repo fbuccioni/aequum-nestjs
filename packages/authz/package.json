@@ -1,0 +1,22 @@
+{
+    "name": "@aequum/nest-authz",
+    "version": "0.25.0-alpha07",
+    "description": "aequum NestJS authorization module",
+    "author": "Felipe Buccioni",
+    "homepage": "https://github.com/fbuccioni/aequum-nestjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fbuccioni/aequum-nestjs.git",
+        "directory": "packages/authz"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@aequum/types": "*",
+        "@nestjs/common": ">10.0.0",
+        "@nestjs/config": ">4.0.0",
+        "@nestjs/core": ">10.0.0"
+    }
+}
