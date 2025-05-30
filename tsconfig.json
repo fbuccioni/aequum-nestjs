@@ -2,32 +2,31 @@
     "compilerOptions": {
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "baseUrl": "./",
         "checkJs": false,
         "declaration": true,
         "emitDecoratorMetadata": true,
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "incremental": true,
         "module": "commonjs",
-        "outDir": "./dist",
         "removeComments": true,
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "sourceMap": true,
         "target": "es2022",
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
         "useDefineForClassFields": false,
         "paths": {
-            "@aequum/crudl": [ "./packages/crudl" ],
-            "@aequum/exceptions": [ "./packages/exceptions" ],
-            "@aequum/exceptions/*": [ "./packages/exceptions/*" ],
-            "@aequum/geojson-models": [ "./packages/geojson-models" ],
-            "@aequum/mongoose/*": [ "./packages/mongoose/*" ],
-            "@aequum/paginate-common": [ "./packages/paginate-common" ],
-            "@aequum/typeorm/*": [ "./packages/typeorm/*" ],
-            "@aequum/types": [ "./packages/types" ],
-            "@aequum/utils": [ "./packages/utils" ],
-            "@aequum/validators": [ "./packages/validators" ]
+            "@aequum/nestjs-authn": [ "./packages/authn" ],
+            "@aequum/nestjs-authz": [ "./packages/authz" ],
+            "@aequum/nestjs-common": [ "./packages/common" ],
+            "@aequum/nestjs-common/*": [ "./packages/common/*" ],
+            "@aequum/nestjs-crudl": [ "./packages/crudl" ],
+            "@aequum/nestjs-exceptions": [ "./packages/exceptions" ],
+            "@aequum/nestjs-geojson-dto": [ "./packages/geojson-dto" ],
+            "@aequum/nestjs-paginate-common": [ "./packages/paginate-common" ],
+            "@aequum/nestjs-paginate-common/*": [ "./packages/paginate-common/*" ],
         }
     },
     "include": [
@@ -37,6 +36,7 @@
         "node_modules",
         "**/*.spec.ts",
         "gulpfile.js",
-        "eslint.config.mjs"
+        "eslint.config.mjs",
     ]
 }
+

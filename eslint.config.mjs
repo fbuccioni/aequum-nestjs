@@ -74,6 +74,7 @@ export default tseslint.config(
             '@typescript-eslint/only-throw-error': 'off',
             '@typescript-eslint/no-this-alias': 'off',
             'import/newline-after-import':  ['error', { 'count': 2 } ],
+            /*
             'import/order': [
                 'error', {
                     groups: [
@@ -82,6 +83,7 @@ export default tseslint.config(
                     'newlines-between': 'always'
                 }
             ]
+            */
         },
     },
 );
