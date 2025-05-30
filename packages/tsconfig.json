@@ -1,0 +1,13 @@
+{
+    "files": [],
+    "references": [
+        { "path": "./authn/tsconfig.build.json" },
+        { "path": "./authz/tsconfig.build.json" },
+        { "path": "./crudl/tsconfig.build.json" },
+        { "path": "./common/tsconfig.build.json" },
+        { "path": "./exceptions/tsconfig.build.json" },
+        { "path": "./geojson-dto/tsconfig.build.json" },
+        { "path": "./paginate-common/tsconfig.build.json" },
+        { "path": "./mongoose/tsconfig.build.json" },
+    ]
+}

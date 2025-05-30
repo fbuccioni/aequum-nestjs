@@ -1,0 +1,23 @@
+{
+    "extends": "../tsconfig.build.json",
+    "compilerOptions": {
+        "outDir": ".",
+        "rootDir": ".",
+        "paths": {
+            "@aequum/nestjs-common": [ "../common" ],
+            "@aequum/nestjs-common/*": [ "../common/*" ],
+            "@aequum/nestjs-paginate-common": [ "../paginate-common" ],
+            "@aequum/nestjs-paginate-common/*": [ "../paginate-common/*" ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "test/**/*",
+        "*.spec.ts"
+    ],
+    "references": [
+        { "path": "../common/tsconfig.build.json" },
+        { "path": "../paginate-common/tsconfig.build.json" }
+    ]
+}
