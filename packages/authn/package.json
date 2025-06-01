@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-authn",
-    "version": "0.25.0-alpha07",
+    "version": "0.25.2-alpha",
     "description": "aequum NestJS authentication module",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
@@ -16,14 +16,14 @@
     "dependencies": {
         "@aequum/exceptions": "*",
         "@aequum/types": "*",
-        "@nestjs/config": "*",
         "@nestjs/common": ">10.0.0",
+        "@nestjs/config": "*",
         "@nestjs/core": ">10.0.0",
         "@nestjs/jwt": ">10.0.0",
         "@nestjs/passport": ">10.0.0",
         "@nestjs/swagger": ">10.0.0",
-        "@types/passport-jwt": "^3.0.0",
         "@types/bcrypt": "^5.0.0",
+        "@types/passport-jwt": "^3.0.0",
         "bcrypt": ">5.0.0",
         "passport-jwt": ">3.0.0"
     }
