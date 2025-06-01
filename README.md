@@ -1,7 +1,7 @@
-aequum 
-======
+aequum-nestjs
+=============
 
-Aequum is a framework for building apps common components in a fast and easy way, also providing a set of common components, utils, models etc.
+Aequum is a framework for building apps common components in a fast and easy way, also providing a set of common components, utils, models etc. over the NestJS framework.
 
 
 Design
@@ -13,12 +13,12 @@ This framework was designed having in mind hexagonal archivecture and clean code
 Packages
 --------
 
-- **[@aequum/crudl](packages/crudl/package.json)**: CRUD/CRUDL operations common components
-- **[@aequum/exceptions](packages/exceptions/package.json)**: Common exceptions collection
-- **[@aequum/geojson-models](packages/geojson-models/package.json)**: GeoJSON models with `class-validator`
-- **[@aequum/mongoose](packages/mongoose/package.json)**: Aequum mongoose tools for repository, pagination, CRUD/CRUDL, configs, and utils
-- **[@aequum/paginate-common](packages/paginate-common/package.json)**: Paginated results common components
-- **[@aequum/typeorm](packages/mongoose/package.json)**: Aequum TypeORM tools for repository, pagination, CRUD/CRUDL, configs, and utils
-- **[@aequum/types](packages/types/package.json)**: Common types collection
-- **[@aequum/utils](packages/utils/package.json)**: aequum util functions collection
-- **[@aequum/validators](packages/validators/package.json)**: Custom validators for `class-validator`
+
+- **[@aequum/nestjs-authn](packages/authn/)**: Authentication module
+- **[@aequum/nestjs-authz](packages/authz/)**: Authorization module
+- **[@aequum/nestjs-common](packages/common/)**: Common components
+- **[@aequum/nestjs-crudl](packages/crudl/)**: CRUD/CRUDL operations components
+- **[@aequum/nestjs-exceptions](packages/exceptions/)**: Descriptive and rich exceptions module
+- **[@aequum/nestjs-geojson-dto](packages/geojson-dto/)**: Validable and swagger ready GeoJSON DTOs
+- **[@aequum/nestjs-mongoose](packages/mongoose/)**: Mongoose tools for repository, pagination, CRUD/CRUDL, configs and utils
+- **[@aequum/nestjs-paginate-common](packages/paginate-common/)**: Pagination common components
