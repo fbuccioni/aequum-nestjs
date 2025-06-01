@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-crudl",
-    "version": "0.25.0-alpha07",
+    "version": "0.25.3-alpha",
     "description": "aequum NestJS CRUD/CRUDL operations components",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
@@ -15,8 +15,8 @@
     },
     "dependencies": {
         "@aequum/crudl": "*",
-        "@aequum/nestjs-common": "^0.25.0-alpha07",
-        "@aequum/nestjs-paginate-common": "^0.25.0-alpha07",
+        "@aequum/nestjs-common": "^0.25.3-alpha",
+        "@aequum/nestjs-paginate-common": "^0.25.3-alpha",
         "@aequum/types": "*",
         "@aequum/utils": "*",
         "@nestjs/common": ">10.0.0",

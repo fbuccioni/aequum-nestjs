@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-common",
-    "version": "0.25.0-alpha07",
+    "version": "0.25.3-alpha",
     "description": "aequum NestJS common components",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",

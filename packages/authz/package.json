@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-authz",
-    "version": "0.25.0-alpha07",
+    "version": "0.25.3-alpha",
     "description": "aequum NestJS authorization module",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
@@ -15,8 +15,8 @@
     },
     "dependencies": {
         "@aequum/types": "*",
-        "@nestjs/config": "*",
         "@nestjs/common": ">10.0.0",
+        "@nestjs/config": "*",
         "@nestjs/core": ">10.0.0"
     }
 }
