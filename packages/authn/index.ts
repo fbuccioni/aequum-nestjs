@@ -5,6 +5,6 @@ export * from './exceptions';
 export * from './guards';
 export * from './interfaces';
 export * from './models';
-export * from './passport';
+export * as passport from './passport';
 export * from './services';
 export * from './types';
