@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-paginate-common",
-    "version": "0.25.4-alpha",
+    "version": "0.26.0",
     "description": "aequum NestJS pagination common components",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
