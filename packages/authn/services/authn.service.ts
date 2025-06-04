@@ -12,6 +12,7 @@ import {
     AuthRefreshTokenCompliantUsersService
 } from '../interfaces/auth-refresh-token-compliant-users-service.interface';
 import { ServiceUserFieldsMap } from '../types/service-user-fields-map.type';
+import { AuthnConfiguration } from '../interfaces/authn-configuration.interface';
 
 
 /**
@@ -53,6 +54,23 @@ export abstract class AuthnService<User = any, TokenDTO extends TokenDto = Token
      */
     protected fields: ServiceUserFieldsMap;
 
+
+    /**
+     * The prefix for the configuration service to
+     * use.
+     */
+    static configPrefix: string = 'authentication';
+
+    /** @ignore */
+    static confPath(path: string) {
+        const self = this;
+
+        if (!self.configPrefix)
+            return path;
+
+        return self.configPrefix + (self.configPrefix.endsWith('.') ? '' : '.') + path;
+    }
+
     protected constructor(
         /**
          * The config service from nestjs
@@ -61,13 +79,13 @@ export abstract class AuthnService<User = any, TokenDTO extends TokenDto = Token
     ) {
         const self = this.constructor as typeof AuthnService;
         const disableRefreshToken = this.configService
-            .get<boolean>('authentication.disableRefreshToken');
+            .get<boolean>(self.confPath('disableRefreshToken'));
 
         if (typeof(disableRefreshToken) !== 'undefined' && disableRefreshToken !== null)
             self.refreshToken = !disableRefreshToken;
 
         const userFields = this.configService
-            .get<Record<string, string>>('authentication.user.fields') || {};
+            .get<Record<string, string>>(self.confPath('user.fields')) || {};
 
         if ((!userFields) && !this.fields)
             this.fields = self.fields;
@@ -91,7 +109,8 @@ export abstract class AuthnService<User = any, TokenDTO extends TokenDto = Token
      * @ignore
      */
     addExpireDate(date: Date): Date {
-        const expiresAfter = this.configService.get<number>('authentication.jwt.expiresAfter') || 3600;
+        const self = this.constructor as typeof AuthnService;
+        const expiresAfter = this.configService.get<number>(self.confPath('jwt.expiresAfter')) || 3600;
         return new Date(date.valueOf() + (expiresAfter * 1000));
     }
 
@@ -199,7 +218,8 @@ export abstract class AuthnService<User = any, TokenDTO extends TokenDto = Token
      * @param password
      */
     async hashPassword(password: string): Promise<string> {
-        const rounds = this.configService.get<number>('authentication.password.saltRounds') || 10;
+        const self = this.constructor as typeof AuthnService;
+        const rounds = this.configService.get<number>(self.confPath('password.saltRounds')) || 10;
         const salt = await bcrypt.genSalt(rounds);
         return bcrypt.hash(password, salt);
     }
@@ -209,8 +229,8 @@ export abstract class AuthnService<User = any, TokenDTO extends TokenDto = Token
      * @param password
      * @param configuration
      */
-    static hashPassword(password: string, configuration: any): string {
-        const rounds = configuration().authentication?.password?.saltRounds || 10;
+    static hashPassword(password: string, configuration: AuthnConfiguration): string {
+        const rounds = configuration?.password?.saltRounds || 10;
         const salt = bcrypt.genSaltSync(rounds);
         return bcrypt.hashSync(password, salt);
     }
