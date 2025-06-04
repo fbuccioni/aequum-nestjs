@@ -5,7 +5,7 @@ import { ApiOperation, ApiResponse } from "@nestjs/swagger";
 import { BaseCRUDLPaginatedService } from "@aequum/crudl";
 import { ClassConstructor } from "@aequum/types";
 import { fillPaginateRequestFromQuery } from "@aequum/nestjs-paginate-common/decorators";
-import { PaginateQueryWithFilterDto } from "@aequum/nestjs-paginate-common/dto";
+import { PaginateQueryWithFilterDto } from "@aequum/nestjs-paginate-common/dtos";
 
 import { CRUDLControllerOptions } from "../../types/crudl.types";
 import * as CRUDLUtil from '../../utils/crudl.util'
