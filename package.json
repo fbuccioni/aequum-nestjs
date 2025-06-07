@@ -1,7 +1,7 @@
 {
   "name": "@aequum/nestjs",
   "title": "NestJS aequum framework toolkit",
-  "version": "0.25.0-alpha07",
+  "version": "0.27.3",
   "description": "A framrework to build apps common components fast, easy and fair over NestJS",
   "author": {
     "name": "Felipe Buccioni",
@@ -63,12 +63,12 @@
     "typescript-eslint": "^8.29.0"
   },
   "peerDependencies": {
-    "@aequum/crudl": "0.25.0-alpha07",
-    "@aequum/exceptions": "0.25.0-alpha07",
-    "@aequum/geojson-models": "0.25.0-alpha07",
-    "@aequum/paginate-common": "0.25.0-alpha07",
-    "@aequum/types": "0.25.0-alpha07",
-    "@aequum/utils": "0.25.0-alpha07",
+    "@aequum/crudl": "0.27.3",
+    "@aequum/exceptions": "0.27.3",
+    "@aequum/geojson-models": "0.27.3",
+    "@aequum/paginate-common": "0.27.3",
+    "@aequum/types": "0.27.3",
+    "@aequum/utils": "0.27.3",
     "@nestjs/common": "^11.1.2",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.2",

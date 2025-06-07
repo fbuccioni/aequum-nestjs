@@ -14,7 +14,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@aequum/geojson-models": "^0.27.0",
+        "@aequum/geojson-models": "^0.27.3",
         "@nestjs/swagger": ">10.0.0"
     }
 }

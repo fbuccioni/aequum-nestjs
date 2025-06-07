@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@aequum/crudl':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@aequum/exceptions':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@aequum/geojson-models':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@aequum/paginate-common':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@aequum/types':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@aequum/utils':
-        specifier: 0.25.0-alpha07
-        version: 0.25.0-alpha07
+        specifier: 0.27.3
+        version: 0.27.3
       '@nestjs/common':
         specifier: ^11.1.2
         version: 11.1.2(class-validator@0.14.2)(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -47,11 +47,14 @@ importers:
       '@nestjs/swagger':
         specifier: ^11.2.0
         version: 11.2.0(@nestjs/common@11.1.2(class-validator@0.14.2)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.2(@nestjs/common@11.1.2(class-validator@0.14.2)(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(class-validator@0.14.2)(reflect-metadata@0.2.2)
+      '@types/bcrypt':
+        specifier: '>5.0.0'
+        version: 5.0.2
       '@types/passport-jwt':
-        specifier: ^4.0.1
+        specifier: '>3.0.0'
         version: 4.0.1
       bcrypt:
-        specifier: ^6.0.0
+        specifier: '>5.0.0'
         version: 6.0.0
       class-validator:
         specifier: '*'
@@ -69,7 +72,7 @@ importers:
         specifier: '>=1.8.0'
         version: 1.9.0(mongoose@8.14.1(socks@2.8.4))
       passport-jwt:
-        specifier: ^4.0.1
+        specifier: '>3.0.0'
         version: 4.0.1
       rxjs:
         specifier: ^7.8.2
@@ -159,23 +162,23 @@ importers:
 
 packages:
 
-  '@aequum/crudl@0.25.0-alpha07':
-    resolution: {integrity: sha512-cvyzK7Ay4ZEN3yQDaGXJVRk0aMJhbTTWDqKw9AOlrxAIEvAUdQoRpFYfADZnlAKqOJowdEsjecx2Ii/q2tDa9A==}
+  '@aequum/crudl@0.27.3':
+    resolution: {integrity: sha512-LCuJd5cjm4ZwRSQ39foSw/d67NGy7vgrhCP9SfVZzlCJNqYZvIMAOK1Yo9ateChjGasArMUtNdG8veNwpTC6/w==}
 
-  '@aequum/exceptions@0.25.0-alpha07':
-    resolution: {integrity: sha512-fsdRgVVO1G+qBkkGdDfkwbtBKCtHF7jfgVa5sXIzjB6/9jd4Uxp+WLxps58jtp/CnCpBhQ+qx6qdFjfGQw3Wfg==}
+  '@aequum/exceptions@0.27.3':
+    resolution: {integrity: sha512-nTXgitq3zEBdcx9uEAGXuNGWR8Qi1LiRLnLpBd7pys4+lgeg/dUZ9ZZUqQPBygSM6QoFb1eAiZDQvDKJDHqZpw==}
 
-  '@aequum/geojson-models@0.25.0-alpha07':
-    resolution: {integrity: sha512-zlf19Z1ARxhLNz9bhVX8dTHJv3fjxbjpgdiN3O/G4KrEa5sMl+I/ed+FGqUg5wrWrEWVM8j/Shk2yRIehNvG+g==}
+  '@aequum/geojson-models@0.27.3':
+    resolution: {integrity: sha512-8DjMbUaVbZJ5tjPf6rSUKzWPkt2xO/4T0Whc2FvSHRkfMEPpFdT0qHrcPSk6TkvaZYHiuL0mNWnfgt4nU2d3oA==}
 
-  '@aequum/paginate-common@0.25.0-alpha07':
-    resolution: {integrity: sha512-UvYkScz3H7xff9LYU9SkcS9b3kzBKSGguUadzVMRfBb93c4EHti+ceseTb7uri4WJJDct7OVwpWz3MSRn+BGcg==}
+  '@aequum/paginate-common@0.27.3':
+    resolution: {integrity: sha512-NOExvZyvsfDXgkP2AgxX+ToT0B2mnFHJqjrzikOWOelxxKUHQzJViDT3/uRen9VTNR8mRJ2XO9T/dBHYo9CwcA==}
 
-  '@aequum/types@0.25.0-alpha07':
-    resolution: {integrity: sha512-u0bVPwS8BUcx71z/48v/4xWtxDRAGFKCfedAgDFw2TXwYM+S+ocmqcDGrHvqaZUIKEgvecKoWwZ1UV+bkgRxDw==}
+  '@aequum/types@0.27.3':
+    resolution: {integrity: sha512-IjIRoMAZse2f0pJriE28VljjpOsOUO0QCiXUp2SlYdfr5DOfaAG6z4FYy5LzV/T0verH1jvCHMcEnhC5JCgFUg==}
 
-  '@aequum/utils@0.25.0-alpha07':
-    resolution: {integrity: sha512-0lS0cN7/7Sm+UPpMVFdf6+BUxz1UWhEXYTRB2sIP0HMtmlqQU+RndNlIpV1cjIOpq60Jzd28nPZ66OUJwHtzmw==}
+  '@aequum/utils@0.27.3':
+    resolution: {integrity: sha512-6lLQ5Zb7ByVvWK5gyuJuUZoQk1tveDq61C4P8Wi/uFmL9C5gyBAu6yrm6WmY7ajtwFrpkqeHzcW4+QPKksqM8A==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -475,6 +478,9 @@ packages:
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
+
+  '@types/bcrypt@5.0.2':
+    resolution: {integrity: sha512-6atioO8Y75fNcbmj0G7UjI9lXN2pQ/IGJ2FWT4a/btd0Lk9lQalHLKhkgKVZ3r+spnmWUKfbMi1GEe9wyHQfNQ==}
 
   '@types/body-parser@1.19.5':
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
@@ -4079,23 +4085,23 @@ packages:
 
 snapshots:
 
-  '@aequum/crudl@0.25.0-alpha07':
+  '@aequum/crudl@0.27.3':
     dependencies:
-      '@aequum/paginate-common': 0.25.0-alpha07
+      '@aequum/paginate-common': 0.27.3
 
-  '@aequum/exceptions@0.25.0-alpha07':
+  '@aequum/exceptions@0.27.3':
     dependencies:
-      '@aequum/utils': 0.25.0-alpha07
+      '@aequum/utils': 0.27.3
 
-  '@aequum/geojson-models@0.25.0-alpha07':
+  '@aequum/geojson-models@0.27.3':
     dependencies:
       class-validator: 0.14.2
 
-  '@aequum/paginate-common@0.25.0-alpha07': {}
+  '@aequum/paginate-common@0.27.3': {}
 
-  '@aequum/types@0.25.0-alpha07': {}
+  '@aequum/types@0.27.3': {}
 
-  '@aequum/utils@0.25.0-alpha07':
+  '@aequum/utils@0.27.3':
     dependencies:
       dotenv: 16.5.0
       dotenv-expand: 12.0.1
@@ -4392,6 +4398,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
     optional: true
+
+  '@types/bcrypt@5.0.2':
+    dependencies:
+      '@types/node': 22.15.14
 
   '@types/body-parser@1.19.5':
     dependencies:
