@@ -6,7 +6,7 @@ import { UniformData } from "../types/uniform-data.type";
  *
  * @param data - Data to be wrapped.
  */
-export default async function uniformDataOutputTransform<T>(
+export async function uniformDataOutputTransform<T>(
     data: T, ..._: any[]
 ): Promise<UniformData<T>> {
     return { data };
