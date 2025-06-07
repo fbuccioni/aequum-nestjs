@@ -103,12 +103,19 @@ export function CRUDLPaginatedController<
                 filter, request, 'list'
             );
 
-            return this.service.paginatedList(
+            const body = this.service.paginatedList(
                 filter,
                 paginateRequest.page,
                 paginateRequest.size,
                 paginateRequest.sortBy || '',
             ) as Promise<ListDtoType>;
+
+            await CRUDLUtil.applyTransform(
+                options.transform?.body?.output,
+                filter, request, 'list'
+            );
+
+            return body;
         }
     }
 
