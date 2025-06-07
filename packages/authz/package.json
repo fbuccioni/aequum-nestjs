@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-authz",
-    "version": "0.26.0",
+    "version": "0.27.20",
     "description": "aequum NestJS authorization module",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
