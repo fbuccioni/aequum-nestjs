@@ -14,11 +14,11 @@
         "access": "public"
     },
     "dependencies": {
-        "@aequum/crudl": "^0.26.1",
+        "@aequum/crudl": "^0.27.0",
         "@aequum/nestjs-common": "0.26.0",
         "@aequum/nestjs-paginate-common": "0.26.0",
-        "@aequum/types": "^0.26.1",
-        "@aequum/utils": "^0.26.1",
+        "@aequum/types": "^0.27.0",
+        "@aequum/utils": "^0.27.0",
         "@nestjs/common": ">10.0.0",
         "@nestjs/swagger": ">10.0.0"
     }

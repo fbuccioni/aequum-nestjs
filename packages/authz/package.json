@@ -14,7 +14,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@aequum/types": "^0.26.1",
+        "@aequum/types": "^0.27.0",
         "@nestjs/common": ">10.0.0",
         "@nestjs/config": "*",
         "@nestjs/core": ">10.0.0"
