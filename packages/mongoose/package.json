@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-mongoose",
-    "version": "0.27.23",
+    "version": "0.27.24",
     "description": "aequum mongoose tools for repository, pagination, CRUD/CRUDL, configs and utils ",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum",

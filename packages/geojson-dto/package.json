@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-geojson-dto",
-    "version": "0.27.23",
+    "version": "0.27.24",
     "description": "aequum NestJS validable and swagger ready GeoJSON DTOs",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
