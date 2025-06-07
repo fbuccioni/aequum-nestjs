@@ -7,7 +7,8 @@
         { "path": "./common/tsconfig.build.json" },
         { "path": "./exceptions/tsconfig.build.json" },
         { "path": "./geojson-dto/tsconfig.build.json" },
-        { "path": "./paginate-common/tsconfig.build.json" },
         { "path": "./mongoose/tsconfig.build.json" },
+        { "path": "./paginate-common/tsconfig.build.json" },
+        { "path": "./uniform-data/tsconfig.build.json" },
     ]
 }
