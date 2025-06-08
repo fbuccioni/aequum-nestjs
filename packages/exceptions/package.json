@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "@aequum/exceptions": "^0.27.3",
-        "@aequum/nestjs-common": "^0.26.1",
+        "@aequum/nestjs-common": "^0.27.3",
         "@aequum/types": "^0.27.3",
         "@nestjs/common": ">10.0.0"
     }
