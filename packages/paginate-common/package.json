@@ -17,6 +17,6 @@
         "@aequum/paginate-common": "^0.27.3",
         "@aequum/types": "^0.27.3",
         "@nestjs/common": ">10.0.0",
-        "@nestjs/swagger": ">10.0.0"
+        "@nestjs/swagger": ">=8.0.0"
     }
 }
