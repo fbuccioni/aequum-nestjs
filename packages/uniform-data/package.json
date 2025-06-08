@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-uniform-data",
-    "version": "0.27.25",
+    "version": "0.27.26",
     "description": "aequum NestJS uniform data components",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
