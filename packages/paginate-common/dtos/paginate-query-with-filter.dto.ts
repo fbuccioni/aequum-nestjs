@@ -28,7 +28,7 @@ import { PaginateRequest } from "../interfaces/paginate-request.interface";
 export function PaginateQueryWithFilterDto(ModelFilterDto: ClassConstructor | null = null) {
     const ModelFilterDtoClass = ModelFilterDto ? ModelFilterDto : class {};
 
-    class PaginateQueryWithFilterDto
+    class PaginateQueryWithFilterDto$
     extends ModelFilterDtoClass
     implements PaginateRequest {
         @ApiProperty({ description: 'Page number', default: 1 })
@@ -41,5 +41,15 @@ export function PaginateQueryWithFilterDto(ModelFilterDto: ClassConstructor | nu
         sortBy?: string;
     }
 
-    return PaginateQueryWithFilterDto;
+    let className = 'PaginateQuery';
+    if (ModelFilterDto)
+        className += `With(${ModelFilterDto.name.replace(/dto$/i, '')})`;
+    className += 'Dto';
+
+    Object.defineProperty(PaginateQueryWithFilterDto$, 'name', Object.assign(
+        Object.getOwnPropertyDescriptor(PaginateQueryWithFilterDto$, 'name') as any,
+        { value: className }
+    ));
+
+    return PaginateQueryWithFilterDto$;
 }
