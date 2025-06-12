@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-authn",
-    "version": "0.27.28",
+    "version": "0.27.30",
     "description": "aequum NestJS authentication module",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
