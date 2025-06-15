@@ -7,6 +7,6 @@ import { authnRequiredMetaKey } from "../constants/metadata.constants";
  * Controller or endpoints that mandatory requires authentication (non-inheritable)
  * @decorator
  */
-export const requireAuthentication =
+export const RequireAuthentication =
     () => SetMetadata(authnRequiredMetaKey, true);
 
