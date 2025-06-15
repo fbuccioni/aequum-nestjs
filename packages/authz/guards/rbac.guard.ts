@@ -55,14 +55,31 @@ export class RBACGuard implements CanActivate {
      */
     protected whenNoUser: WhenNoUserAction = 'return-default-policy';
 
+    /**
+     * The prefix for the configuration service to
+     * use.
+     */
+    static configPrefix: string = 'authorization';
+
+    /** @ignore */
+    static confPath(path: string) {
+        const self = this;
+
+        if (!self.configPrefix)
+            return path;
+
+        return self.configPrefix + (self.configPrefix.endsWith('.') ? '' : '.') + path;
+    }
+
     constructor(
         protected readonly reflector: Reflector,
         protected readonly configService: ConfigService,
     ) {
-        const rolesUserProperty = this.configService.get<string>('authorization.rolesUserProperty');
+        const self = this.constructor as typeof RBACGuard;
+        const rolesUserProperty = this.configService.get<string>(self.confPath('rolesUserProperty'));
         if (rolesUserProperty) this.rolesUserProperty = rolesUserProperty;
 
-        const defaultPolicy = this.configService.get<string>('authorization.defaultPolicy');
+        const defaultPolicy = this.configService.get<string>(self.confPath('defaultPolicy'));
         if (defaultPolicy) {
             if (!Policies.includes(defaultPolicy as Policy))
                 throw new ConfigError(
@@ -71,7 +88,7 @@ export class RBACGuard implements CanActivate {
             this.defaultPolicy = defaultPolicy as Policy;
         }
 
-        const whenNoUser = this.configService.get<string>('authorization.whenNoUser');
+        const whenNoUser = this.configService.get<string>(self.confPath('whenNoUser'));
         if (whenNoUser) {
             if (!WhenNoUserActions.includes(whenNoUser as WhenNoUserAction))
                 throw new ConfigError(
