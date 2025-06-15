@@ -12,7 +12,8 @@ import { conversionFromClassValidatorMap } from "../maps/conversion-from-class-v
 
 
 /**
- * Custom validation pipe that converts class-validator errors to a custom exception
+ * Custom validation pipe that converts `class-validator` errors to
+ * an `@aequum/exception`
  *
  * @see ValidationException
  * @see https://docs.nestjs.com/pipes#the-built-in-validationpipe
