@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-mongoose",
-    "version": "0.27.38",
+    "version": "0.27.39",
     "description": "aequum NestJS mongoose tools",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum",
