@@ -1,7 +1,8 @@
+import { PaginateResultPaginator } from "@aequum/paginate-common";
 import { ApiProperty } from "@nestjs/swagger";
 
 
-export class PaginatorDto {
+export class PaginatorDto implements PaginateResultPaginator {
     @ApiProperty({
         description: 'Page number',
         example: 1,
