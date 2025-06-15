@@ -1,6 +1,6 @@
 {
     "name": "@aequum/nestjs-exceptions",
-    "version": "0.27.30",
+    "version": "0.27.38",
     "description": "aequum NestJS descriptive and rich exceptions module",
     "author": "Felipe Buccioni",
     "homepage": "https://github.com/fbuccioni/aequum-nestjs",
@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "@aequum/exceptions": "^0.27.15",
-        "@aequum/nestjs-common": "0.27.30",
+        "@aequum/nestjs-common": "0.27.38",
         "@aequum/types": "^0.27.15",
         "@nestjs/common": ">10.0.0"
     }
