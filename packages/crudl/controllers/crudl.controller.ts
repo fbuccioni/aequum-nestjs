@@ -17,7 +17,7 @@ import { string as stringUtil } from '@aequum/utils';
 import { ClassConstructor } from '@aequum/types';
 
 import * as CRUDLUtil from '../utils/crudl.util'
-import { CRUDLControllerOptions } from '../types/crudl.types';
+import { CRUDLControllerOptions } from '../interfaces';
 
 
 export type SharedListDtoType<T> = T extends Array<infer U extends ClassConstructor>

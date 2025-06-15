@@ -4,10 +4,10 @@ import { ForbiddenException, Get, Query, Req, } from '@nestjs/common';
 import { ApiOperation, ApiResponse } from "@nestjs/swagger";
 import { BaseCRUDLPaginatedService } from "@aequum/crudl";
 import { ClassConstructor } from "@aequum/types";
-import { fillPaginateRequestFromQuery } from "@aequum/nestjs-paginate-common/decorators";
+import { fillPaginateRequestFromQuery } from "@aequum/nestjs-paginate-common/utils";
 import { PaginateQueryWithFilterDto } from "@aequum/nestjs-paginate-common/dtos";
 
-import { CRUDLControllerOptions } from "../../types/crudl.types";
+import { CRUDLControllerOptions } from '../../interfaces';
 import * as CRUDLUtil from '../../utils/crudl.util'
 import { CRUDLController, SharedListDtoType } from "../../controllers/crudl.controller";
 

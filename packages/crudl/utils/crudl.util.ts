@@ -4,11 +4,11 @@ import { func as funcUtils } from "@aequum/utils";
 import { swagger as swaggerUtils } from "@aequum/nestjs-common/utils";
 
 import {
-    CRUDLControllerOptions,
     CRUDLOperationsList,
     CRUDLTransformInputFunction,
     CRUDLTransformOutputFunction
 } from "../types/crudl.types";
+import { CRUDLControllerOptions } from '../interfaces';
 
 
 /**
