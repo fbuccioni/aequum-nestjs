@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@aequum/crudl':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@aequum/exceptions':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@aequum/geojson-models':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@aequum/paginate-common':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@aequum/types':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@aequum/utils':
-        specifier: 0.27.3
-        version: 0.27.3
+        specifier: 0.27.15
+        version: 0.27.15
       '@nestjs/common':
         specifier: '>=10.0.0'
         version: 11.1.2(class-validator@0.14.2)(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -162,23 +162,23 @@ importers:
 
 packages:
 
-  '@aequum/crudl@0.27.3':
-    resolution: {integrity: sha512-LCuJd5cjm4ZwRSQ39foSw/d67NGy7vgrhCP9SfVZzlCJNqYZvIMAOK1Yo9ateChjGasArMUtNdG8veNwpTC6/w==}
+  '@aequum/crudl@0.27.15':
+    resolution: {integrity: sha512-Yln3wg2FmTyvIWXAlP4G1qzZ8Sf2lc/qgLt2D4twfzLDFLrzijvSgQHuf+TpzXyox5m3OVfE8fji+nQQGimcpQ==}
 
-  '@aequum/exceptions@0.27.3':
-    resolution: {integrity: sha512-nTXgitq3zEBdcx9uEAGXuNGWR8Qi1LiRLnLpBd7pys4+lgeg/dUZ9ZZUqQPBygSM6QoFb1eAiZDQvDKJDHqZpw==}
+  '@aequum/exceptions@0.27.15':
+    resolution: {integrity: sha512-+CYGRqc/gs8vl7TMrvG8HO8AA/89sYeY5Mt6LkSLqr/yckrMXwMZiwEaX3oXdGyHdH3iyT1G+aFq/+tJcMqLpg==}
 
-  '@aequum/geojson-models@0.27.3':
-    resolution: {integrity: sha512-8DjMbUaVbZJ5tjPf6rSUKzWPkt2xO/4T0Whc2FvSHRkfMEPpFdT0qHrcPSk6TkvaZYHiuL0mNWnfgt4nU2d3oA==}
+  '@aequum/geojson-models@0.27.15':
+    resolution: {integrity: sha512-RArSTH5M87vnIYQtihcor0CUYR1dOKvH72+orJ82Dk6nKd49qdSKIzw18lMdj0kcNbYQ7hNqeYkUdGvC4/IS6w==}
 
-  '@aequum/paginate-common@0.27.3':
-    resolution: {integrity: sha512-NOExvZyvsfDXgkP2AgxX+ToT0B2mnFHJqjrzikOWOelxxKUHQzJViDT3/uRen9VTNR8mRJ2XO9T/dBHYo9CwcA==}
+  '@aequum/paginate-common@0.27.15':
+    resolution: {integrity: sha512-8vubxajlt5Uc2hrbJ+bAK3CAdvhmtMCzomGl24b49pXZZIfZDW+CuWpTU9ZwkwfSafExPUhya1uDayy0hJuePA==}
 
-  '@aequum/types@0.27.3':
-    resolution: {integrity: sha512-IjIRoMAZse2f0pJriE28VljjpOsOUO0QCiXUp2SlYdfr5DOfaAG6z4FYy5LzV/T0verH1jvCHMcEnhC5JCgFUg==}
+  '@aequum/types@0.27.15':
+    resolution: {integrity: sha512-qMITzSdRnHyaa4fqUghpC+PnuRPH8VY4ABVo2AgfuevMMfyj7CIN0cN0e6GD6ESpKQgpu9/Aooj8WrXdWLHZzw==}
 
-  '@aequum/utils@0.27.3':
-    resolution: {integrity: sha512-6lLQ5Zb7ByVvWK5gyuJuUZoQk1tveDq61C4P8Wi/uFmL9C5gyBAu6yrm6WmY7ajtwFrpkqeHzcW4+QPKksqM8A==}
+  '@aequum/utils@0.27.15':
+    resolution: {integrity: sha512-27g118O0cmcoPBxOnSdhne022VlQV/8/JRGYHhlFSzk+dZzEjmDY5IXZsXS2/F8tEgFyVeC80VXomHBDWs3B8A==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -4085,23 +4085,23 @@ packages:
 
 snapshots:
 
-  '@aequum/crudl@0.27.3':
+  '@aequum/crudl@0.27.15':
     dependencies:
-      '@aequum/paginate-common': 0.27.3
+      '@aequum/paginate-common': 0.27.15
 
-  '@aequum/exceptions@0.27.3':
+  '@aequum/exceptions@0.27.15':
     dependencies:
-      '@aequum/utils': 0.27.3
+      '@aequum/utils': 0.27.15
 
-  '@aequum/geojson-models@0.27.3':
+  '@aequum/geojson-models@0.27.15':
     dependencies:
       class-validator: 0.14.2
 
-  '@aequum/paginate-common@0.27.3': {}
+  '@aequum/paginate-common@0.27.15': {}
 
-  '@aequum/types@0.27.3': {}
+  '@aequum/types@0.27.15': {}
 
-  '@aequum/utils@0.27.3':
+  '@aequum/utils@0.27.15':
     dependencies:
       dotenv: 16.5.0
       dotenv-expand: 12.0.1
