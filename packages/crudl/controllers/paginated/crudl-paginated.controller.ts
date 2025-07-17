@@ -103,7 +103,7 @@ export function CRUDLPaginatedController<
                 filter, request, 'list'
             );
 
-            const body = this.service.paginatedList(
+            const body = await this.service.paginatedList(
                 filter,
                 paginateRequest.page,
                 paginateRequest.size,

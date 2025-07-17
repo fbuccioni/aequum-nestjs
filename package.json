@@ -1,7 +1,7 @@
 {
   "name": "@aequum/nestjs",
   "title": "NestJS aequum framework toolkit",
-  "version": "0.27.39",
+  "version": "0.27.40",
   "description": "A framrework to build apps common components fast, easy and fair over NestJS",
   "author": {
     "name": "Felipe Buccioni",
